@@ -1,0 +1,45 @@
+/* reset */
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4a4949;
+}
+.wrapper{
+    background-color: #fff;
+    width: 650px;
+    margin: 60px auto;
+}
+header{
+    height: 75px;
+    background-image: url("../img/redHeader.png");
+    position: relative;
+}
+main{
+    padding: 10px;
+}
+main p{
+    margin-bottom: 15px;
+}
+.new{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(90deg);
+}
+.butt{
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: -14px;
+    transform: translateX(-50%);
+}
