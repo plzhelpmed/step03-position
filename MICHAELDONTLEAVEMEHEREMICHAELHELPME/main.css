@@ -24,14 +24,37 @@ body{
 
 .CARD{
     width: 320px;
+    height: 320px;
     background-color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 20px;
-    
+    overflow: auto;
 }
 .CARD p{
     margin-bottom: 15px;
+}
+.CARD img{
+    width: 100%;
+}
+.btnCard{
+    margin: 25px 0;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    border: 2px solid gray;
+    padding: 15px;
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    color: gray;
+    transition: 0.8s;
+}
+.btnCard:hover{
+    background-color: orange;
+    color: white;
 }
